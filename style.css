@@ -1,0 +1,56 @@
+:root{
+    --dark-color:#19283f;
+    --green-color: #33d1cc;
+    --red-color:#ff3150;
+    --yellow-color:#ffc400
+}
+body{
+    font-family: "Roboto Thin";
+}
+
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    color:white;
+}
+
+
+
+
+
+
+.nav-link:visited,
+ .nav-link:hover,.nav-link:active{
+    background-color: var(--green-color);
+
+}
+.search{
+    border-left: 1px solid var(--green-color);
+}
+.search svg{
+    color: var(--green-color);
+
+
+}
+.navbar-toggler{
+    border-color: white;
+}
+.landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+    /*display: flex;*/
+    flex-flow: row wrap;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+
+}
+.main-btn{
+    background-color: var(--red-color);
+    color:var(--yellow-color) ;
+    padding: 0.5rem 1rem;
+}
+.main-title h1{
+    color: var(--dark-color);
+}
+
